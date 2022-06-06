@@ -1,0 +1,69 @@
+# Welcome to Jekyll!
+#
+
+# Site settings
+title: I choose.
+description: |
+  Our mission is to remind you that every moment in your life is priceless. It’s up to you to make it perfect.
+  
+  Choose conciously. 
+owner: I Choose Official # or company name
+first_published: 2020 # if migrating another site, the year of your first publish
+email: kostastojiljkovic@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://ichooseofficial.com/" # the base hostname & protocol for your site
+social:
+  #twitter: https://twitter.com/<username>
+  #github: https://github.com/<username>
+  #linkedin-square: https://linkedin.com/in/<username>
+  #facebook-official: https://facebook.com/<username>
+  #google-plus-square: https://plus.google.com/u/0/+<username>
+  #email: /contact/
+  #flickr:
+  instagram: https://instagram.com/i_choose_official
+  #youtube-square:
+  #spotify:
+  #stack-overflow:
+  #vimeo:
+  #reddit:
+  #stubleupon:
+  #delicious:
+  #pied-piper:
+  #digg:
+  #soundcloud:
+  #deviantart:
+  #angellist:
+  #tumblr-square:
+  #stackexchange:
+  #weibo:
+  #trello:
+  #foursquare:
+  #linux:
+  #bitbucket-square:
+  #vk:
+  #slack:
+  #vine:
+  #weixin:
+  #yelp:
+  #skyatlas:
+  #leanpub:
+  #connectdevelop:
+  #ils:
+  #forumbee:
+  #tripadvisor:
+  #amazon:
+
+# Build settings
+markdown: kramdown
+#sass:
+#  style: compressed
+
+exclude:
+         - vendor
+         - Gemfile
+         - Gemfile.lock
+         - node_modules
+         - gulpfile.js
+         - package.json
+         
+encoding: utf-8
