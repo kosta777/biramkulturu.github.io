@@ -37,18 +37,18 @@
 
 // Palette.
 	$palette: (
-		bg:					#c8a2c8,    //OVO MENJAJ KOLE
-		fg:					#fff,   //BOJA TEKSTA NPR ICHOOSE GORE LEVO I NA DUDGMICIMA
-		fg-bold:			#fff, // BOJA TEKSTA OUR MISSION IS I OPIS KOLEKCIJE
+		bg:					#F2EFDE,    //OVO MENJAJ KOLE
+		fg:					#fff,   //BOJA TEKSTA ZA IOUS
+		fg-bold:			#999999, // BOJA TEKSTA OUR MISSION IS I OPIS KOLEKCIJE
 		fg-light:			rgba(255,255,255,0.5),
-		border:				#fff, //BOJA TEKSTA OUR MISSION IS
+		border:				#000, //BOJA TEKSTA OUR MISSION IS
 		border-bg:			#41b3a3,
 		border2:			#44d941,
 		border2-bg:			#44d941,
 
 		accent1: (
 			bg:				#f4f3ee,
-			fg-bold:		#ffffff,
+			fg-bold:		#000000,
 			fg:				mix(#21b2a6, #ffffff, 25%),
 			fg-light:		mix(#21b2a6, #ffffff, 40%),
 			border:			rgba(0,0,0,0.125),
@@ -59,7 +59,7 @@
 
 		accent2: (
 			bg:				#e0afa0,
-			fg-bold:		#ffffff,
+			fg-bold:		#000000,
 			fg:				mix(#00ffcc, #ffffff, 25%),
 			fg-light:		mix(#00ffcc, #ffffff, 40%),
 			border:			rgba(0,0,0,0.125),
@@ -69,10 +69,10 @@
 		),
 
 		accent3: (
-			bg:				#bbeebb,
-			fg-bold:		#ffffff,
+			bg:				#ffffff,
+			fg-bold:		#000,
 			fg:				mix(#00f0ff, #ffffff, 25%),
-			fg-light:		mix(#00f0ff, #ffffff, 40%),
+			fg-light:		mix(#000000, #000000, 40%),
 			border:			rgba(0,0,0,0.125),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(0,0,0,0.25),
@@ -91,8 +91,8 @@
 		),
 
 		accent5: (
-			bg:				#bbeebb, //OVO MENAJJ KOLE ZA BORDER
-			fg-bold:		#fff,
+			bg:				#F2EFDE, //OVO MENAJJ KOLE ZA BORDER
+			fg-bold:		#000000, 
 			fg:				mix(#505393, #ffffff, 25%),
 			fg-light:		mix(#505393, #ffffff, 40%),
 			border:			rgba(0,0,0,0.125),
@@ -103,7 +103,7 @@
 
 		accent6: (
 			bg:				#bbeebb,
-			fg-bold:		#fff,
+			fg-bold:		#000, // ovo za dugme tekst
 			fg:				mix(#ed4933, #ffffff, 25%),
 			fg-light:		mix(#ed4933, #ffffff, 40%),
 			border:			rgba(0,0,0,0.125),

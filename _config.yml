@@ -2,12 +2,10 @@
 #
 
 # Site settings
-title: I choose.
+title: Biram kulturu.
 description: |
-  Our mission is to remind you that every moment in your life is priceless. It’s up to you to make it perfect.
-  
-  Choose conciously. 
-owner: I Choose Official # or company name
+  Na našem TV-u nema signala, frekvenciju birajte sami. Ugasite pretplatu na plasiran sadržaj i pretplatite se na KULTURU.
+owner: Biram Kulturu # or company name
 first_published: 2020 # if migrating another site, the year of your first publish
 email: kostastojiljkovic@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -20,7 +18,7 @@ social:
   #google-plus-square: https://plus.google.com/u/0/+<username>
   #email: /contact/
   #flickr:
-  instagram: https://instagram.com/i_choose_official
+  instagram: https://www.instagram.com/biramkulturu/i_choose_official
   #youtube-square:
   #spotify:
   #stack-overflow:

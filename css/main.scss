@@ -1944,6 +1944,55 @@ input[type="submit"],
 			}
 		}
 	}
+
+	#main_small_2022 {
+		> header {
+			@include padding(1em, 0);
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/2022/naslovna.jpg")'));
+			background-attachment: fixed;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			text-align: center;
+
+			h2 {
+				font-size: 1.75em;
+				margin: 0 0 (_size(element-margin) * 0.25) 0;
+			}
+
+			p {
+				color: inherit;
+				letter-spacing: _size(letter-spacing-alt);
+				text-transform: uppercase;
+				top: 0;
+
+				a {
+					color: inherit;
+				}
+			}
+
+			@include breakpoint(xlarge) {
+				@include padding(10em, 0);
+			}
+
+			@include breakpoint(large) {
+				@include padding(8em, 3em);
+			}
+
+			@include breakpoint(medium) {
+				@include padding(10em, 3em);
+			}
+
+			@include breakpoint(small) {
+				@include padding(5em, 3em);
+
+				h2 {
+					font-size: 1.25em;
+					margin: 0 0 (_size(element-margin) * 0.5) 0;
+				}
+			}
+		}
+	}
 #main_small_ss2021 {
 		> header {
 			@include padding(1em, 0);
@@ -2205,7 +2254,7 @@ input[type="submit"],
 
 	#footer {
 		@include padding(6em, 0);
-		background-color: darken(_palette(accent3, bg), 8);
+		background-color: darken(_palette(accent3, bg), 50);
 		text-align: center;
 
 		.icons {
@@ -2272,7 +2321,7 @@ input[type="submit"],
 
 	body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/banner4.jpg")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/banner2022.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
