@@ -2319,6 +2319,7 @@ input[type="submit"],
 
 /* Landing */
 
+@media all and (min-width: 800px) {
 	body.landing {
 		#page-wrapper {
 			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/ban2022.jpg")'));
@@ -2326,8 +2327,8 @@ input[type="submit"],
 			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: cover;
-			overflow: visible;
-			width:100%;
+			width:100vw;
+			height:100%;
 			padding-top: 0;
 		}
 
@@ -2335,6 +2336,25 @@ input[type="submit"],
 			background-color: darken(transparentize(_palette(accent3, bg), 0.1), 8);
 		}
 	}
+}
+@media not all and (min-width: 800px) {
+	body.landing {
+		#page-wrapper {
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/ban2022.jpg")'));
+			background-attachment: fixed;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: contain;
+			width:100vw;
+			height:100%;
+			padding-top: 0;
+		}
+
+		#footer {
+			background-color: darken(transparentize(_palette(accent3, bg), 0.1), 8);
+		}
+	}
+}
 
 	/* Styles the thumbnail */
 
