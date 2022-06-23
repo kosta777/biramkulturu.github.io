@@ -2326,7 +2326,8 @@ input[type="submit"],
 			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: cover;
-			display:block;
+			overflow: visible;
+			width:100%;
 			padding-top: 0;
 		}
 
@@ -2334,27 +2335,6 @@ input[type="submit"],
 			background-color: darken(transparentize(_palette(accent3, bg), 0.1), 8);
 		}
 	}
-
-	body.is-mobile {
-		&.landing {
-			#page-wrapper {
-				background: none;
-			}
-
-			#banner,
-			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/banner4.jpg")'));
-				background-position: center center;
-				background-repeat: no-repeat;
-				background-size: cover;
-			}
-
-			#footer {
-				background-color: darken(_palette(accent3, bg), 8);
-			}
-		}
-	}
-
 
 	/* Styles the thumbnail */
 
