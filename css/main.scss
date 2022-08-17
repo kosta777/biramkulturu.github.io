@@ -2319,7 +2319,7 @@ input[type="submit"],
 
 /* Landing */
 
-@media screen and (orientation:landscape) {
+@media screen  {
 	body.landing {
 		#page-wrapper {
 			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/ban2022.jpg")'));
@@ -2333,7 +2333,7 @@ input[type="submit"],
 		}
 	}
 }
-@media screen and (orientation:portrait) {
+@media screen and (max-width: 489px) {
 	body.landing {
 		#page-wrapper {
 			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/2022/gramofon/3.jpg")'));
