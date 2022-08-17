@@ -2319,10 +2319,10 @@ input[type="submit"],
 
 /* Landing */
 
-@media all and (min-width: 800px) {
+@media screen and (orientation:portrait){
 	body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/ban2022.jpg")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/gramofon/3.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -2337,7 +2337,7 @@ input[type="submit"],
 		}
 	}
 }
-@media not all and (min-width: 800px) {
+@media screen and (orientation:landscape) {
 	body.landing {
 		#page-wrapper {
 			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/ban2022.jpg")'));
